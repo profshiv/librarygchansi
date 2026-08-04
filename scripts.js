@@ -165,10 +165,9 @@ function showAbout() {
     aboutSection.innerHTML = `
         <h3>About Government College Hansi</h3>
         <p>Government College Hansi is a prestigious institution located in Hansi, Haryana. The college is dedicated to providing quality education and fostering an environment of academic excellence.</p>
-        <h4>Team Members</h4>
+        <h4>Site developed and maintained by:</h4>
         <ul>
-            <li>Vijay Kumar Yadav, Convener</li>
-            <li>Shiv Kumar, Technical Advisor</li>
+            <li>Shiv Kumar, Assistant Professor (HES-II)</li>
         </ul>
         <button id="themeToggle" onclick="toggleTheme()">Switch Theme</button>
         <button onclick="closeAbout()">Close</button>
