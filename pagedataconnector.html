@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const jsonData = `{
+                "books": [
+                    {
+                        "title": "Book Title 1",
+                        "author": "Author 1"
+                    },
+                    {
+                        "title": "Book Title 2",
+                        "author": "Author 2"
+                    }
+                ]
+            }`;
+            const blob = new Blob([jsonData], { type: 'application/json' });
+            const url = URL.createObjectURL(blob);
+            document.getElementById('jsonDataLink').href = url;
+            document.getElementById('jsonDataLink').textContent = url;
+        });
+    </script>
+</head>
+<body>
+    <h1>JSON Data</h1>
+    <a id="https://github.com/profshiv/librarygchansi/blob/cde26168329e75fa468b668afd3e3c5a73a0a26a/datafile.json" href="#">Download JSON</a>
+</body>
+</html>

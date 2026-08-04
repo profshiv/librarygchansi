@@ -1,0 +1,3 @@
+Applied:
+- Enabled strict mode in JavaScript.
+Recommendations (manual/codewide): debounce search, lazy rendering, service worker, minification, image compression, ARIA labels, cache headers.
